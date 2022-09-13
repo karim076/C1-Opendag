@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title></title>
+	<title>Opendag</title>
 </head>
 <body>
 	<header>

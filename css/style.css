@@ -88,11 +88,19 @@ body {
   background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
-  padding: 20%;
+  padding: 4%;
 
 }
 .image .space{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 100%
+  justify-content: center;
+  height: 100%;
+}
+.space h3{
+  font-size: 60px;
+}
+.space p{
+  font-size: 35px;
 }

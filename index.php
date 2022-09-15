@@ -57,6 +57,7 @@
 		<div class="image">
 			<div class="space">
 				<h3>Welkom bij de opendag!</h3>
+				<p>Kom is een kijkje nemen&#128512;</p>
 			</div>
 		</div>
 	</main>

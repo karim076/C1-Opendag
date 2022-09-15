@@ -54,7 +54,11 @@
 		</script>
 	</header>
 	<main>
-		
+		<div class="image">
+			<div class="space">
+				<h3>Welkom bij de opendag!</h3>
+			</div>
+		</div>
 	</main>
 	<footer>
 		

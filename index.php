@@ -60,6 +60,15 @@
 				<p>Kom is een kijkje nemen&#128512;</p>
 			</div>
 		</div>
+		<div class="opendagBalk">
+			<div class="slices">	
+				<div class="opendag">
+					<h3>Opendag</h3>
+				</div>
+				<div>-------------------------</div>
+				<div><h3>19:30 15-9-2022</h3></div>
+			</div>
+		</div>
 	</main>
 	<footer>
 		

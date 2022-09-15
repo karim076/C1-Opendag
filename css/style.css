@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Felix;
+    src: url(../font/Fellix-Regular.ttf);
+}
+
+@font-face {
+    font-family: School;
+    src: url(../font/School.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,7 +93,7 @@ body {
 .image{
   margin-top: -70px;
   width: 100%;
-  height: 1080px;
+  height: 1000px;
   background: url("../img/mbo.jpg"); 
   background-repeat: no-repeat;
   display: flex;
@@ -100,7 +110,35 @@ body {
 }
 .space h3{
   font-size: 60px;
+  font-family: Felix;
 }
 .space p{
   font-size: 35px;
+  font-family: Felix;
+}
+.opendagBalk{
+  margin: 0 auto;
+  width: 28%;
+  height: 152px;
+  background-image: linear-gradient(to bottom right,#FFD5EB, #85317e);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: -152px;
+  margin-bottom: 50px;
+}
+.slices{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-family: School;
+}
+
+.slices .opendag h3{
+  font-size: 37px;
 }

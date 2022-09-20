@@ -142,3 +142,16 @@ body {
 .slices .opendag h3{
   font-size: 37px;
 }
+
+.vakken{
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vakWidget{
+  width: 30%;
+  height: 150px;
+  background-color: aliceblue;
+}

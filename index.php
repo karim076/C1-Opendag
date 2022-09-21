@@ -70,29 +70,10 @@
 			</div>
 		</div>
 		<div class="vakken">
-			<div>
-				<div class="vakWidget generiek">
+			<div class="vakWidget generiek">
 
-				</div>
-				<div class="vakWidget web">
-					
-				</div>
-				<div class="vakWidget native">
-					
-				</div>
 			</div>
-			<div>
-				<div class="vakWidget pra">
-
-				</div>
-				<div class="vakWidget Web">
-					
-				</div>
-				<div class="vakWidget Native">
-					
-				</div>
-			</div>
-		</div>
+		</div>	
 	</main>
 	<footer>
 		

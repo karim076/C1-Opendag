@@ -71,7 +71,32 @@
 		</div>
 		<div class="vakken">
 			<div class="vakWidget generiek">
-
+				<h2>Generiek</h2>
+				<p>-Nederlands<br>
+					-Engels<br>
+					-Rekenen
+				</p>
+			</div>
+			<div class="vakWidget generiek">
+				<h2>Generiek</h2>
+				<p>-Nederlands<br>
+					-Engels<br>
+					-Rekenen
+				</p>
+			</div>
+			<div class="vakWidget generiek">
+				<h2>Generiek</h2>
+				<p>-Nederlands<br>
+					-Engels<br>
+					-Rekenen
+				</p>
+			</div>
+			<div class="vakWidget generiek">
+				<h2>Generiek</h2>
+				<p>-Nederlands<br>
+					-Engels<br>
+					-Rekenen
+				</p>
 			</div>
 		</div>	
 	</main>

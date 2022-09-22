@@ -78,25 +78,16 @@
 				</p>
 			</div>
 			<div class="vakWidget generiek">
-				<h2>Generiek</h2>
-				<p>-Nederlands<br>
-					-Engels<br>
-					-Rekenen
-				</p>
+				<h2>Web</h2>
+				<p>Bij web ga je website's maken van frontend tot backend</p>
 			</div>
 			<div class="vakWidget generiek">
-				<h2>Generiek</h2>
-				<p>-Nederlands<br>
-					-Engels<br>
-					-Rekenen
-				</p>
+				<h2>Native</h2>
+				<p>Bij Native ga je het software crëeeren</p>
 			</div>
 			<div class="vakWidget generiek">
-				<h2>Generiek</h2>
-				<p>-Nederlands<br>
-					-Engels<br>
-					-Rekenen
-				</p>
+				<h2>Pro</h2>
+				<p>Bij Praktijkondersteuning leer je het voorbereiden van het maken van website en software</p>
 			</div>
 		</div>	
 	</main>

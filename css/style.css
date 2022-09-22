@@ -13,6 +13,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .menuItem {
   display: block;
@@ -149,7 +152,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: dense;
-  grid-gap: 15px;
+  grid-gap: 20px;
 }
 
 .vakWidget{
@@ -158,8 +161,14 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  padding: 25px;
+  padding: 40px;
   height: 200px;
-  background: aliceblue;
-
+  background: lightblue;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+}
+.centerText{
+  text-align: center;
+  color: lightblue;
+  margin-bottom: 40px;
 }

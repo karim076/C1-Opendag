@@ -94,10 +94,6 @@
 				<p>Bij Praktijkondersteuning leer je het voorbereiden van het maken van website en software.</p>
 			</div>
 			<div class="vakWidget generiek">
-				<h2>Pro</h2>
-				<p>Bij Praktijkondersteuning leer je het voorbereiden van het maken van website en software.</p>
-			</div>
-			<div class="vakWidget generiek">
 				<h2>Codelab</h2>
 				<p>Bij codelab krijg je een uurtje de tijd of je huiswerk te maken, je kunt dan de leraar vragen stellen als je vast zit.</p>
 			</div>

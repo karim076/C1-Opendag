@@ -2,14 +2,15 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/svg.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Opendag</title>
 </head>
 <body>
 	<header>
-		<div class="navbar">
+		<div class="navbars">
 			<div>
-				<ul class="menu">
+				<ul class="menus">
 				    <li><a class="menuItem" href="#">Home</a></li>
 				    <li><a class="menuItem" href="#">Profile</a></li>
 				    <li><a class="menuItem" href="#">About</a></li>
@@ -27,7 +28,7 @@
 		    <a href="#" class="diff">contact</a>
 		</div>
 		<script type="text/javascript">
-			const menu = document.querySelector(".menu");
+			const menu = document.querySelector(".menus");
 			const menuItems = document.querySelectorAll(".menuItem");
 			const hamburger= document.querySelector(".hamburger");
 			const closeIcon= document.querySelector(".closeIcon");

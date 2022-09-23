@@ -73,6 +73,7 @@
 		<div class="vakken">
 			<div class="vakWidget generiek">
 				<h2>Generiek</h2>
+				<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 				<p>-Nederlands<br>
 					-Engels<br>
 					-Rekenen

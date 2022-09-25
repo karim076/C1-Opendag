@@ -188,15 +188,14 @@ body {
   color: lightblue;
   margin-bottom: 40px;
 }
-/* media quaries voor vakken*/
+/* media quary's voor vakken*/
 @media screen and (max-width: 1699px) {
   .vakken{
     grid-template-columns: repeat(2, 1fr);
   }
-
-  @media screen and (max-width: 1091px) {
-    .vakken{
-      grid-template-columns: 1fr;
-    }
-
-    /*Media query's*/
+}
+@media screen and (max-width: 1091px) {
+  .vakken{
+    grid-template-columns: 1fr;
+  }
+}

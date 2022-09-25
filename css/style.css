@@ -1,3 +1,4 @@
+/*Fonts importeren*/
 @font-face {
   font-family: Felix;
   src: url(../font/Fellix-Regular.ttf);
@@ -8,15 +9,22 @@
   src: url(../font/School.ttf);
 }
 
+/*default*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/*Toepassing aan alles*/
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+/*Navbar met hamburger menu*/
 .menuItem {
   display: block;
   margin: 2rem 4rem;
@@ -35,8 +43,7 @@ html {
   top: 1rem;
   right: 1rem;
   padding: 4px;
-  border: black solid 1px;
-  background: white;
+  background: transparent;
   cursor: pointer;
 }
 
@@ -63,29 +70,24 @@ html {
   transform: translateY(0);
 }
 
-.navbars{
+.navBars{
   display: flex;
   margin-right: 50px;
   align-items: center;
 }
-.navbars .diff{
+.navBars .diff{
   margin-right: 150px;
   text-decoration: none;
   color: black;
   font-size: 25px;
 }
 
-.navbars{
+.navBars{
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: flex-end;
   margin: 20px;
-}
-
-
-body {
-  overflow-x: hidden;
 }
 
 /*Banner*/
@@ -183,7 +185,7 @@ body {
   box-shadow: 5px 10px;
 }
 /*Vakken text in het midden*/
-.centerText{
+.vakkenText{
   text-align: center;
   color: lightblue;
   margin-bottom: 40px;

@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Felix;
-    src: url(../font/Fellix-Regular.ttf);
+  font-family: Felix;
+  src: url(../font/Fellix-Regular.ttf);
 }
 
 @font-face {
-    font-family: School;
-    src: url(../font/School.ttf);
+  font-family: School;
+  src: url(../font/School.ttf);
 }
 
 * {
@@ -85,7 +85,7 @@ html {
 
 
 body {
-  
+  overflow-x: hidden;
 }
 
 .image{
@@ -95,6 +95,7 @@ body {
   background: url("../img/mbo.jpg"); 
   background-repeat: no-repeat;
   display: flex;
+  object-fit: cover;
   justify-content: flex-end;
   padding: 4%;
 
@@ -114,6 +115,24 @@ body {
   font-size: 35px;
   font-family: Felix;
 }
+
+@media screen and (max-width: 1620px) {
+  .image {
+    justify-content: flex-start !important;
+  }
+  .space h3{
+    font-size: 45px;
+    font-family: Felix;
+  }
+  .space p{
+    font-size: 25px;
+    font-family: Felix;
+  }
+  .image .space{
+    height: 60%;
+  }
+}
+
 .opendagBalk{
   margin: 0 auto;
   width: 28%;
@@ -143,7 +162,6 @@ body {
 
 .vakken{
   margin: 0 auto;
-  width: 85%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: dense;
@@ -168,11 +186,38 @@ body {
   margin-bottom: 40px;
 }
 /* media quaries*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1699px) {
   .vakken{
     grid-template-columns: repeat(2, 1fr);
-}
-@media screen and (max-width: 658px) {
-  .vakken{
-    grid-template-columns: 1fr;
-}
+  }
+
+  @media screen and (max-width: 1091px) {
+    .vakken{
+      grid-template-columns: 1fr;
+    }
+
+    /*Media query's*/
+
+    @media (min-width: 1200px){
+      .col-xl-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;}
+      }
+
+      @media (min-width: 992px){
+        .col-lg-5 {
+          flex: 0 0 auto;
+          width: 41.66666667%;
+          }}
+
+          @media (min-width: 768px){
+            .col-md-6 {
+              flex: 0 0 auto;
+              width: 50%;
+              }}
+
+              @media (min-width: 576px){
+                .col-sm-12 {
+                  flex: 0 0 auto;
+                  width: 100%;
+                  }}

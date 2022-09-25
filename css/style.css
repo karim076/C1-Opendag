@@ -88,6 +88,7 @@ body {
   overflow-x: hidden;
 }
 
+/*Banner*/
 .image{
   margin-top: -70px;
   width: 100%;
@@ -115,7 +116,7 @@ body {
   font-size: 35px;
   font-family: Felix;
 }
-
+/*Banner responsive*/
 @media screen and (max-width: 1620px) {
   .image {
     justify-content: flex-start !important;
@@ -132,7 +133,8 @@ body {
     height: 60%;
   }
 }
-
+/**/
+/*Opendag text met tijd*/
 .opendagBalk{
   margin: 0 auto;
   width: 28%;
@@ -159,7 +161,7 @@ body {
 .slices .opendag h3{
   font-size: 37px;
 }
-
+/*Vakken met grid*/
 .vakken{
   margin: 0 auto;
   display: grid;
@@ -180,12 +182,13 @@ body {
   border-radius: 25px;
   box-shadow: 5px 10px;
 }
+/*Vakken text in het midden*/
 .centerText{
   text-align: center;
   color: lightblue;
   margin-bottom: 40px;
 }
-/* media quaries*/
+/* media quaries voor vakken*/
 @media screen and (max-width: 1699px) {
   .vakken{
     grid-template-columns: repeat(2, 1fr);
@@ -197,27 +200,3 @@ body {
     }
 
     /*Media query's*/
-
-    @media (min-width: 1200px){
-      .col-xl-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;}
-      }
-
-      @media (min-width: 992px){
-        .col-lg-5 {
-          flex: 0 0 auto;
-          width: 41.66666667%;
-          }}
-
-          @media (min-width: 768px){
-            .col-md-6 {
-              flex: 0 0 auto;
-              width: 50%;
-              }}
-
-              @media (min-width: 576px){
-                .col-sm-12 {
-                  flex: 0 0 auto;
-                  width: 100%;
-                  }}

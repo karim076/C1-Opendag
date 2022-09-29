@@ -23,7 +23,7 @@
 				</button>		
 			</div>            
 			<a href="#vakken" class="diff">vakken</a>
-			<a href="#" class="diff">blogs</a>
+			<a href="#blokOvergang" class="diff">Blok informatie</a>
 			<a href="#" class="diff">portfolio</a>
 			<a href="#" class="diff">contact</a>
 		</div>
@@ -115,7 +115,7 @@
 					<p>Bij codelab krijg je een uurtje de tijd of je huiswerk te maken, je kunt dan de leraar vragen stellen als je vast zit.</p>
 				</div>
 			</div>
-			<div id="#blokOvergang" class="blok">
+			<div id="blokOvergang" class="blok">
 				<div>
 					<h1 class="center">Blok overgang</h1>
 				</div>

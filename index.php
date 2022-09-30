@@ -94,6 +94,7 @@
 				</div>
 			</div>
 			<div class="teachers">
+				<h1 >Smoelen boek</h1>
 				<div class="cardGrid">
 					<div class="a-box">
 					  <div class="img-container">
@@ -129,14 +130,14 @@
 					  <div class="img-container">
 					    <div class="img-inner">
 					      <div class="inner-skew">
-					        <img src="img/teacher/Wicher.png">
+					        <img src="img/teacher/eb89.jpg">
 					      </div>
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Elton</h3>
+					    <h3>Boekhoudt, Elton</h3>
 					    <div>
-					      Docent Software Developer bij Curio(Native)
+					      Docent Software Developer bij Curio(Web)
 					  	</div>
 					  </div>
 					</div>
@@ -144,14 +145,14 @@
 					  <div class="img-container">
 					    <div class="img-inner">
 					      <div class="inner-skew">
-					        <img src="img/teacher/Wicher.png">
+					        <img src="img/teacher/michel.png">
 					      </div>
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Michel</h3>
+					    <h3>Meeuwesen, Michel</h3>
 					    <div>
-					      Docent Software Developer bij Curio(Native)
+					      Docent Software Developer bij Curio(Allround)
 					  	</div>
 					  </div>
 					</div>
@@ -159,14 +160,14 @@
 					  <div class="img-container">
 					    <div class="img-inner">
 					      <div class="inner-skew">
-					        <img src="img/teacher/Wicher.png">
+					        <img src="img/teacher/steven.png">
 					      </div>
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Steven</h3>
+					    <h3>Van Rosendaal, Steven</h3>
 					    <div>
-					      Docent Software Developer bij Curio(Native)
+					      Docent Software Developer bij Curio(Web)
 					  	</div>
 					  </div>
 					</div>
@@ -174,14 +175,14 @@
 					  <div class="img-container">
 					    <div class="img-inner">
 					      <div class="inner-skew">
-					        <img src="img/teacher/Wicher.png">
+					        <img src="img/teacher/corne.png">
 					      </div>
 					    </div>
 					  </div>
 					  <div class="text-container">
 					    <h3>Corne</h3>
 					    <div>
-					      Docent Software Developer bij Curio(Native)
+					      Docent Software Developer bij Curio(Web)
 					  	</div>
 					  </div>
 					</div>

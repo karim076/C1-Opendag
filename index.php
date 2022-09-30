@@ -134,7 +134,7 @@
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Hulzebosch, Wicher</h3>
+					    <h3>Elton</h3>
 					    <div>
 					      Docent Software Developer bij Curio(Native)
 					  	</div>
@@ -149,7 +149,7 @@
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Hulzebosch, Wicher</h3>
+					    <h3>Michel</h3>
 					    <div>
 					      Docent Software Developer bij Curio(Native)
 					  	</div>
@@ -164,7 +164,7 @@
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Hulzebosch, Wicher</h3>
+					    <h3>Steven</h3>
 					    <div>
 					      Docent Software Developer bij Curio(Native)
 					  	</div>
@@ -179,7 +179,7 @@
 					    </div>
 					  </div>
 					  <div class="text-container">
-					    <h3>Hulzebosch, Wicher</h3>
+					    <h3>Corne</h3>
 					    <div>
 					      Docent Software Developer bij Curio(Native)
 					  	</div>

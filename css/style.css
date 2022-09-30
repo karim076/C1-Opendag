@@ -9,13 +9,13 @@
   src: url(../font/School.ttf);
 }
 
-/*default*/
+/*default(reset)*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*Toepassing aan alles*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -118,23 +118,7 @@ body {
   font-size: 35px;
   font-family: Felix;
 }
-/*Banner responsive*/
-@media screen and (max-width: 1620px) {
-  .image {
-    justify-content: flex-start !important;
-  }
-  .space h3{
-    font-size: 45px;
-    font-family: Felix;
-  }
-  .space p{
-    font-size: 25px;
-    font-family: Felix;
-  }
-  .image .space{
-    height: 60%;
-  }
-}
+
 /**/
 /*Opendag text met tijd*/
 .opendagBalk{
@@ -201,7 +185,7 @@ body {
 }
 /*Blokken*/
 .blokOvergang{
-  background: url(../img/BlokOvergang.png);
+  background: url(../img/BlokOvergang.png);  /*Dit is de image */
   width: 676px;
   height: 820px;
   background-repeat: no-repeat;
@@ -254,5 +238,22 @@ body {
 @media screen and (max-width: 1091px) {
   .vakken{
     grid-template-columns: 1fr;
+  }
+}
+/*Banner responsive*/
+@media screen and (max-width: 1620px) {
+  .image {
+    justify-content: flex-start !important;
+  }
+  .space h3{
+    font-size: 45px;
+    font-family: Felix;
+  }
+  .space p{
+    font-size: 25px;
+    font-family: Felix;
+  }
+  .image .space{
+    height: 60%;
   }
 }

@@ -214,7 +214,24 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* Leraren foto's*/
+.teachers{
+  margin: 0 auto;
+  width: 80%;
 
+}
+.cardGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: dense;
+  grid-gap: 50px;
+}
+/* Leraren foto's media quary's*/
+@media screen and (max-width: 1288px) {
+  .cardGrid{
+    grid-template-columns: repeat(3, 1fr)!important;
+  }
+}
 /*  media quary voor Blokken overgang*/
 @media screen and (max-width: 1590px) {
   .blokImages{

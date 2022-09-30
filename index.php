@@ -93,22 +93,103 @@
 					<div class="detailOvergang"></div>
 				</div>
 			</div>
-			<div class="Carroussel">
-				<div class="a-box">
-				  <div class="img-container">
-				    <div class="img-inner">
-				      <div class="inner-skew">
-				        <img src="img/teacher/br10.png">
-				      </div>
-				    </div>
-				  </div>
-				  <div class="text-container">
-				    <h3>Bart Roos</h3>
-				    <div>
-				      Leraar | Curriculum-coördinator | Ontwikkelaar (software én onderwijs)
-				  	</div>
-				  </div>
+			<div class="teachers">
+				<div class="cardGrid">
+					<div class="a-box">
+					  <div class="img-container">
+					    <div class="img-inner">
+					      <div class="inner-skew">
+					        <img src="img/teacher/br10.png">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="text-container">
+					    <h3>Roos, Bart</h3>
+					    <div>
+					      Leraar | Curriculum-coördinator | Ontwikkelaar (software én onderwijs)
+					  	</div>
+					  </div>
+					</div>
+					<div class="a-box">
+					  <div class="img-container">
+					    <div class="img-inner">
+					      <div class="inner-skew">
+					        <img src="img/teacher/Wicher.png">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="text-container">
+					    <h3>Hulzebosch, Wicher</h3>
+					    <div>
+					      Docent Software Developer bij Curio(Native)
+					  	</div>
+					  </div>
+					</div>
+					<div class="a-box">
+					  <div class="img-container">
+					    <div class="img-inner">
+					      <div class="inner-skew">
+					        <img src="img/teacher/Wicher.png">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="text-container">
+					    <h3>Hulzebosch, Wicher</h3>
+					    <div>
+					      Docent Software Developer bij Curio(Native)
+					  	</div>
+					  </div>
+					</div>
+					<div class="a-box">
+					  <div class="img-container">
+					    <div class="img-inner">
+					      <div class="inner-skew">
+					        <img src="img/teacher/Wicher.png">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="text-container">
+					    <h3>Hulzebosch, Wicher</h3>
+					    <div>
+					      Docent Software Developer bij Curio(Native)
+					  	</div>
+					  </div>
+					</div>
+					<div class="a-box">
+					  <div class="img-container">
+					    <div class="img-inner">
+					      <div class="inner-skew">
+					        <img src="img/teacher/Wicher.png">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="text-container">
+					    <h3>Hulzebosch, Wicher</h3>
+					    <div>
+					      Docent Software Developer bij Curio(Native)
+					  	</div>
+					  </div>
+					</div>
+					<div class="a-box">
+					  <div class="img-container">
+					    <div class="img-inner">
+					      <div class="inner-skew">
+					        <img src="img/teacher/Wicher.png">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="text-container">
+					    <h3>Hulzebosch, Wicher</h3>
+					    <div>
+					      Docent Software Developer bij Curio(Native)
+					  	</div>
+					  </div>
+					</div>
 				</div>
+			</div>
+			</div>
+			<div class="carroussel">
+				
 			</div>
 		</main>
 		

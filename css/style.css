@@ -225,6 +225,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: dense;
   grid-gap: 50px;
+  place-items:  center;/*Plaats het 'card' in het midden van het grid*/
 }
 /*  media quary voor Blokken overgang*/
 @media screen and (max-width: 1590px) {

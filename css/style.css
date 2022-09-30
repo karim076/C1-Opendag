@@ -240,7 +240,7 @@ body {
     grid-template-columns: 1fr;
   }
 }
-/*Banner responsive*/
+/*Banner responsive 1054*/
 @media screen and (max-width: 1620px) {
   .image {
     justify-content: flex-start !important;
@@ -255,5 +255,11 @@ body {
   }
   .image .space{
     height: 60%;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+  .image{
+    margin-top: -100px;
   }
 }

@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/svg.css">
-	<link rel="stylesheet" type="text/css" href="css/schedule.css">
+	<link rel="stylesheet" type="text/css" href="css/diashow.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Opendag</title>
 </head>
@@ -24,44 +24,13 @@
 			</div>            
 			<a href="#vakken" class="diff">vakken</a>
 			<a href="#blokOvergang" class="diff">Blok informatie</a>
-			<a href="#" class="diff">portfolio</a>
+			<a href="#" class="diff">Leeraren</a>
 			<a href="#" class="diff">contact</a>
 		</div>
-		<script type="text/javascript">
-			// Variablen aanmaken van klassen
-			const menu = document.querySelector(".menus");
-			const menuItems = document.querySelectorAll(".menuItem");
-			const hamburger= document.querySelector(".hamburger");
-			const closeIcon= document.querySelector(".closeIcon");
-			const menuIcon = document.querySelector(".menuIcon");
-			//Nu begint eerst het hamburger menu in plaats het kruis
-			menuIcon.style.display = "block";
-			closeIcon.style.display = "none";
-			// functie bij het aanklikken wordt dit aangeroepen
-			function toggleMenu() {
-				if (menu.classList.contains("showMenu")) {
-					menu.classList.remove("showMenu");
-					closeIcon.style.display = "none";
-					menuIcon.style.display = "block";
-					hamburger.style.background = "transparent";
-				} else {
-					menu.classList.add("showMenu");
-					hamburger.style.background = "white";
-					closeIcon.style.display = "block";
-					menuIcon.style.display = "none";
-				}
-			}
-			// event listener wordt dan toggleMenu geroepen om uit te voeren
-			hamburger.addEventListener("click", toggleMenu);
-
-			menuItems.forEach( 
-				function(menuItem) { 
-					menuItem.addEventListener("click", toggleMenu);
-				})
-			</script>
+		
 		</header>
 		<main>
-			<div class="maxWidth">
+			<div class="maxWidth"><!-- Open dag tijd blok -->
 				<div class="image">
 					<div class="space">
 						<h3>Welkom bij de opendag!</h3>
@@ -78,9 +47,9 @@
 					<div><h3>19:30 15-9-2022</h3></div>
 				</div>
 			</div>
-			<div class="vakkenText" id="vakken"><h1>→Vakken←</h1></div>
+			<div class="vakkenText" id="vakken"><h1>→Vakken←</h1></div> <!-- -->
 			<div class="vakken">
-				<div class="vakWidget  ">
+				<div class="vakWidget">
 					<h2>Generiek</h2>
 					<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 					<p>-Nederlands<br>
@@ -122,14 +91,61 @@
 				<div class="blokImages">
 					<div class="blokOvergang"></div>
 					<div class="detailOvergang"></div>
-					<!-- <img src="img/BlokOvergang.png" alt="Blok overgang foto">
-					<img src="img/DetailOvergang.png" alt="gedetailleerde blok overgang foto"> -->
 				</div>
-			</div> 	
+			</div>
+			<div class="Carroussel">
+				<div class="a-box">
+				  <div class="img-container">
+				    <div class="img-inner">
+				      <div class="inner-skew">
+				        <img src="img/teacher/br10.png">
+				      </div>
+				    </div>
+				  </div>
+				  <div class="text-container">
+				    <h3>Bart Roos</h3>
+				    <div>
+				      Leraar | Curriculum-coördinator | Ontwikkelaar (software én onderwijs)
+				  	</div>
+				  </div>
+				</div>
+			</div>
 		</main>
 		
 		<footer>
 
 		</footer>
+		<script type="text/javascript">
+			// Variablen aanmaken van klassen
+			const menu = document.querySelector(".menus");
+			const menuItems = document.querySelectorAll(".menuItem");
+			const hamburger= document.querySelector(".hamburger");
+			const closeIcon= document.querySelector(".closeIcon");
+			const menuIcon = document.querySelector(".menuIcon");
+			//Nu begint eerst het hamburger menu in plaats het kruis
+			menuIcon.style.display = "block";
+			closeIcon.style.display = "none";
+			// functie bij het aanklikken wordt dit aangeroepen
+			function toggleMenu() {
+				if (menu.classList.contains("showMenu")) {
+					menu.classList.remove("showMenu");
+					closeIcon.style.display = "none";
+					menuIcon.style.display = "block";
+					hamburger.style.background = "transparent";
+				} else {
+					menu.classList.add("showMenu");
+					hamburger.style.background = "white";
+					closeIcon.style.display = "block";
+					menuIcon.style.display = "none";
+				}
+			}
+			// event listener wordt dan toggleMenu geroepen om uit te voeren
+			hamburger.addEventListener("click", toggleMenu);
+
+			menuItems.forEach( 
+				function(menuItem) { 
+					menuItem.addEventListener("click", toggleMenu);
+				})
+			</script>
 	</body>
 	</html>

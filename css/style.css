@@ -68,17 +68,31 @@ body {
 
 .showMenu {
   transform: translateY(0);
-  background: rgb(21,30,52);
   background: linear-gradient(6deg, rgba(21,30,52,1) 0%, rgba(76,69,149,1) 45%, rgba(121,166,255,1) 98%);
   display: flex;
-  justify-content: center;
-  font-size: 50px
+  flex-direction: column;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .showMenu li a{
   font-size: 40px;
 }
+.menuBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.logo{
+  width: 968px;
+  height: 389px;
+}
+
+.curioLogo{
+  display: flex;
+  justify-content: center;
+}
 .navBars{
   display: flex;
   margin-right: 50px;

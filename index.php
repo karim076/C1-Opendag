@@ -13,17 +13,22 @@
 		<div class="navBars">
 			<div>
 				<ul class="menus">
-					<li><a href="#vakken" class="menuItem">vakken</a></li>
-					<li><a href="#blokOvergang" class="menuItem">Blok informatie</a></li>
-					<li><a href="#teachers" class="menuItem">Smoelen boek</a></li>
-					<li><a href="#Carrousel" class="menuItem">Carrousel</a></li>
-					<li><a href="#" class="menuItem">Faq</a></li>
+					<div class="curioLogo">
+						<img class="logo" src="img/logo/logo_curio.png" alt="Curio logo">
+					</div>
+					<div class="menuBar">
+						<li><a href="#vakken" class="menuItem">vakken</a></li>
+						<li><a href="#blokOvergang" class="menuItem">Blok informatie</a></li>
+						<li><a href="#teachers" class="menuItem">Smoelen boek</a></li>
+						<li><a href="#Carrousel" class="menuItem">Carrousel</a></li>
+						<li><a href="#" class="menuItem">Faq</a></li>
+					</div>
 				</ul>
 				<button class="hamburger">
 					<i class="menuIcon material-icons">menu</i>
 					<i class="closeIcon material-icons">close</i>
 				</button>		
-			</div>            
+			</div>        
 			<a href="#vakken" class="diffs">vakken</a>
 			<a href="#blokOvergang" class="diffs">Blok informatie</a>
 			<a href="#teachers" class="diffs">Smoelen boek</a>

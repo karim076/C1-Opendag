@@ -75,7 +75,7 @@ body {
   margin-right: 50px;
   align-items: center;
 }
-.navBars .diff{
+.navBars .diffs{
   margin-right: 150px;
   text-decoration: none;
   color: black;
@@ -89,7 +89,18 @@ body {
   justify-content: flex-end;
   margin: 20px;
 }
-
+/* Underline animatie*/
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
 /*Banner*/
 .image{
   margin-top: -70px;
@@ -243,7 +254,12 @@ body {
   grid-gap: 50px;
   place-items: center;/*Plaats het 'card' in het midden van het grid*/
 }
-
+/*  Media Quary voor het menu als het niet meer past verdwijnt het en kom alles in het hamburger menu te staan*/
+@media screen and (max-width: 1365px) {
+  .diffs{
+    display: none;
+  }
+}
 /*  media quary voor Blokken overgang*/
 @media screen and (max-width: 1590px) {
   .blokImages{

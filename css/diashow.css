@@ -59,7 +59,7 @@
 }
 
 .carousel h1{
-  font-size: 35px;
+  font-size: 56px;
   text-align: center;
   color: #04bcff;
   color: antiquewhite;
@@ -206,7 +206,7 @@ input:checked + .slide-container .nav label { display: block; }
 .fadeout{
   width: 100%;
   height: 300px;
-  background: linear-gradient(aliceblue, rgba(255,0,0,0));
+  background: linear-gradient(aliceblue, white);
 }
 /*Faq styling*/
 #faq {
@@ -218,6 +218,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .faq{
   background: aliceblue;
+  padding-bottom: 80px;
 }
 
 section.faq {
@@ -240,6 +241,7 @@ section.faq {
 
 #faq h1 {
   color: #000;
+  font-size: 56px;
   margin-bottom: 30px;
   padding-top: 75px;
 }

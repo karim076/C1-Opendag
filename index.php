@@ -281,7 +281,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="fadeout"></div>
+		<div class="fadein"></div>
 		<div class="faq">
 			<div id="faq">
 				<h1>FAQ</h1>
@@ -295,7 +295,9 @@
 							Web is verdeeld in 2 sectoren Front-end en Backend developers, Front-end is het visuele gedeelte van het website oftewel alles wat de gebruiker kan zien op het scherm, Backend is het achtergrond proces, zoals als je een product wilt betalen of een email wilt sturen heeft allemaal achtergrond processen.
 							<br><br>
 							Uiteindelijk kies je in de derde jaar tussen Web of Native, er is ook een mogelijkheid om beide te houden maar je hebt minder specialisatie opties.
-							Als je een Web developer wilt worden kun je een Front-end developer,                                                                    Backend developer en Database beheerder worden.                                                                                         En voor Native kun je als C# Developer, python developer en DevOps worden
+							Als je een Web developer wilt worden kun je een Front-end developer,                                                                    
+							Backend developer en Database beheerder worden.                                                                                         
+							En voor Native kun je als C# Developer, python developer en DevOps worden
 						</p>
 					</li>
 					<li>
@@ -311,12 +313,26 @@
 					<li>
 						<input type="checkbox" checked>
 						<i></i>
-						<h2>Mijn mening</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas placeat assumenda mollitia magni consequatur dolorum, quod nihil distinctio aperiam officia alias! Voluptate dolore ex officiis sit, magnam non a, eligendi pariatur aut, earum dolores tenetur ipsam id illo deleniti. Laudantium deserunt eaque ipsam voluptatum consequuntur voluptatibus sed minima ad accusamus debitis eos similique laboriosam, molestiae? Consequatur neque tempore quis. Eligendi, in ut aspernatur esse nesciunt libero.</p>
+						<h2>Toelatings eisen</h2>
+						<p>Om aan deze opleiding te mogen deelnemen heb je bepaalde diploma’s nodig.<br>Voor een BOL opleiding heb je een vmbo diploma nodig (Kader, Gemengd of theoretisch), of je hebt een diploma Basisberoepsopleiding (niveau 2) in eenzelfde beroep of beroep categorie.<br>Of een bewijs dat je 3 jaar lang het vwo of havo hebt gedaan. <br>Als je een BBL opleiding wilt gaan doen moet je bij een erkend bedrijf werken. <br>Je moet hier dan minimaal 20-24 uur per week werken.
+						</p>
 					</li>
+					<li>
+						<input type="checkbox" checked>
+						<i></i>
+						<h2>Mijn mening</h2>
+						<p>wat vind ik van deze opleiding:
+							Ik vind het een brede opleiding, want je hebt veschillende kanten waar in je kunt specialiseren<br>
+							bijvoorbeeld Web, je kunt frontend doen of backend en bij Native kun je specialiseren in C#/python.<br>
+							Door zo een brede opleiding kun je beter je kant kiezen in de web of de native kant, zo proef je de bijde kanten.<br>
+							Omdat deze opleiding nog nieuw is zijn er nog altijd verbetering te vinden en die fine tuning vinden zodat leerlingen optimaal kunnen leren en voorbereiden op het werkgebied.
+							</p>
+					</li>
+
 				</ul>
-			</div>
+			</div>			
 		</div>
+		<!-- <div class="fadeout"></div> -->
 	</main>
 
 	<footer>

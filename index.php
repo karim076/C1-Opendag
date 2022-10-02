@@ -281,6 +281,42 @@
 				</ul>
 			</div>
 		</div>
+		<div class="fadeout"></div>
+		<div class="faq">
+			<div id="faq">
+				<h1>FAQ</h1>
+				<ul>
+					<li>
+						<input type="checkbox" checked>
+						<i></i>
+						<h2>Wat kun je na deze opleiding gaan doen </h2>
+						<p>Na je opleiding, waar kan je je zelf aanbieden op het arbeidsmarkt.                                                                                 In  deze opleiding wordt er twee gebieden gebruikt die je kunt kiezen,                                                                                   native en web krijg je in de eerste en de tweede jaar om je smaakt te vinden.<br><br>
+							Native is meer het software kant ,zoals programma’s die je kunt downloaden van het internet of een systeem op de app.
+							Web is verdeeld in 2 sectoren Front-end en Backend developers, Front-end is het visuele gedeelte van het website oftewel alles wat de gebruiker kan zien op het scherm, Backend is het achtergrond proces, zoals als je een product wilt betalen of een email wilt sturen heeft allemaal achtergrond processen.
+							<br><br>
+							Uiteindelijk kies je in de derde jaar tussen Web of Native, er is ook een mogelijkheid om beide te houden maar je hebt minder specialisatie opties.
+							Als je een Web developer wilt worden kun je een Front-end developer,                                                                    Backend developer en Database beheerder worden.                                                                                         En voor Native kun je als C# Developer, python developer en DevOps worden
+						</p>
+					</li>
+					<li>
+						<input type="checkbox" checked>
+						<i></i>
+						<h2>Vakanties</h2>
+						<p>De vakantie bestaat uit 4 vaste vakanties:<br><br>
+						Zomer vakantie, Kerst vakantie, Herfst vakantie en Mei vakantie (Vaste vakanties).<br>
+						Je hebt ook een buffer week, in dat week gaan mensen die                                                         
+						achterlopen weer op tempo te krijgen, maar als je al voorloop of op tempo bent hoef je de hele week niet aanwezig zijn.
+						</p>
+					</li>
+					<li>
+						<input type="checkbox" checked>
+						<i></i>
+						<h2>Mijn mening</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quas placeat assumenda mollitia magni consequatur dolorum, quod nihil distinctio aperiam officia alias! Voluptate dolore ex officiis sit, magnam non a, eligendi pariatur aut, earum dolores tenetur ipsam id illo deleniti. Laudantium deserunt eaque ipsam voluptatum consequuntur voluptatibus sed minima ad accusamus debitis eos similique laboriosam, molestiae? Consequatur neque tempore quis. Eligendi, in ut aspernatur esse nesciunt libero.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</main>
 
 	<footer>
@@ -289,7 +325,7 @@
 </body>
 </html>
 <script type="text/javascript">
-			// Variablen aanmaken van klassen
+	// Variablen aanmaken van klassen
 	const menu = document.querySelector(".menus");
 	const menuItems = document.querySelectorAll(".menuItem");
 	const hamburger= document.querySelector(".hamburger");
@@ -313,12 +349,14 @@
 			hamburger.style.background = "white";
 			closeIcon.style.display = "block";
 			menuIcon.style.display = "none";
-		}
-			// event listener wordt dan toggleMenu geroepen om uit te voeren
+		}//if stament close
+		}//function close
+		
+	// event listener wordt dan toggleMenu geroepen om uit te voeren
 	hamburger.addEventListener("click", toggleMenu);
 
 	menuItems.forEach( 
 		function(menuItem) { 
 			menuItem.addEventListener("click", toggleMenu);
-	    })
-</script>
+		})
+	</script>

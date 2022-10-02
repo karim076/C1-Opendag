@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/svg.css">
 	<link rel="stylesheet" type="text/css" href="css/diashow.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>Opendag</title>
 </head>
 <body>
@@ -17,11 +17,11 @@
 						<img class="logo" src="img/logo/logo_curio.png" alt="Curio logo">
 					</div>
 					<div class="menuBar">
-						<li><a href="#vakken" class="menuItem">vakken</a></li>
+						<li><a href="#vakken" class="menuItem">Vakken</a></li>
 						<li><a href="#blokOvergang" class="menuItem">Blok informatie</a></li>
 						<li><a href="#teachers" class="menuItem">Smoelen boek</a></li>
 						<li><a href="#Carrousel" class="menuItem">Carrousel</a></li>
-						<li><a href="#" class="menuItem">Faq</a></li>
+						<li><a href="#faq" class="menuItem">Faq</a></li>
 					</div>
 				</ul>
 				<button class="hamburger">
@@ -29,11 +29,11 @@
 					<i class="closeIcon material-icons">close</i>
 				</button>		
 			</div>        
-			<a href="#vakken" class="diffs">vakken</a>
+			<a href="#vakken" class="diffs">Vakken</a>
 			<a href="#blokOvergang" class="diffs">Blok informatie</a>
 			<a href="#teachers" class="diffs">Smoelen boek</a>
 			<a href="#Carrousel" class="diffs">Carrousel</a>
-			<a href="#" class="diffs">Faq</a>
+			<a href="#faq" class="diffs">Faq</a>
 		</div>
 		
 	</header>
@@ -301,13 +301,17 @@
 						</p>
 					</li>
 					<li>
+						<!-- Checkbox als op de balk klikt klapt de tekst uit Zonder JAVASCRIPT :) -->
 						<input type="checkbox" checked>
+						<!-- Pijltje -->
 						<i></i>
+						<!-- Onderwerp -->
 						<h2>Vakanties</h2>
+						<!-- Tekst over de onderwerp -->
 						<p>De vakantie bestaat uit 4 vaste vakanties:<br><br>
-						Zomer vakantie, Kerst vakantie, Herfst vakantie en Mei vakantie (Vaste vakanties).<br>
-						Je hebt ook een buffer week, in dat week gaan mensen die                                                         
-						achterlopen weer op tempo te krijgen, maar als je al voorloop of op tempo bent hoef je de hele week niet aanwezig zijn.
+							Zomer vakantie, Kerst vakantie, Herfst vakantie en Mei vakantie (Vaste vakanties).<br>
+							Je hebt ook een buffer week, in dat week gaan mensen die                                                         
+							achterlopen weer op tempo te krijgen, maar als je al voorloop of op tempo bent hoef je de hele week niet aanwezig zijn.
 						</p>
 					</li>
 					<li>
@@ -320,23 +324,92 @@
 					<li>
 						<input type="checkbox" checked>
 						<i></i>
+						<h2>Is er veel huiswerk?</h2>
+						<p>Er is inderdaad huiswerk, maar als je alles optijd af hebt is het zeker niet veel.<br>
+							In sommige periode kun je wel veel huiswerk krijgen ,maar dit is echter meer een project,<br> dit doe je samen met je teamgenoot en hiervoor kun je weken de tijd voor krijgen licht aan het moeilijkheids graad.<br>
+						</p>
+					</li>
+					<li>
+						<input type="checkbox" checked>
+						<i></i>
+						<h2>Is er veel huiswerk?</h2>
+						<p>Er is inderdaad huiswerk, maar als je alles optijd af hebt is het zeker niet veel.<br>
+							In sommige periode kun je wel veel huiswerk krijgen ,maar dit is echter meer een project,<br> dit doe je samen met je teamgenoot en hiervoor kun je weken de tijd voor krijgen licht aan het moeilijkheids graad.<br>
+						</p>
+					</li>
+					<li>
+						<input type="checkbox" checked>
+						<i></i>
 						<h2>Mijn mening</h2>
-						<p>wat vind ik van deze opleiding:
-							Ik vind het een brede opleiding, want je hebt veschillende kanten waar in je kunt specialiseren<br>
+						<p>wat vind ik van deze opleiding:<br>
+							Ik vind het een brede opleiding, want je hebt veschillende kanten waar in je kunt specialiseren,<br>
 							bijvoorbeeld Web, je kunt frontend doen of backend en bij Native kun je specialiseren in C#/python.<br>
 							Door zo een brede opleiding kun je beter je kant kiezen in de web of de native kant, zo proef je de bijde kanten.<br>
 							Omdat deze opleiding nog nieuw is zijn er nog altijd verbetering te vinden en die fine tuning vinden zodat leerlingen optimaal kunnen leren en voorbereiden op het werkgebied.
-							</p>
+						</p>
 					</li>
 
 				</ul>
-			</div>			
-		</div>
-		<!-- <div class="fadeout"></div> -->
+			</div>	<!-- faq ID -->		
+		</div><!-- faq class -->
+		<div class="fadeout"></div>
 	</main>
 
-	<footer>
+	<footer class="footer-distributed">
+		<div class="footer-left">
 
+			<img src="img/logo/logo_footer.png">
+
+			<p class="footer-links">
+				<a href="#vakken" class="link-1">Vakken</a>
+
+				<a href="#blokOvergang">Blok informatie</a>
+
+				<a href="#teachers">Smoelen boek</a>
+
+				<a href="#Carrousel">Carrousel</a>
+
+				<a href="#faq">Faq</a>
+			</p>
+
+			<p class="footer-company-name">Alright reserved to Curio © 2022</p>
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa-sharp fa-solid fa-location-dot"></i>
+				<p><span>Terheidensweg 350</span> Noord-Brabant, Breda</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1.555.555.5555</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:support@company.com">support@curio.com</a></p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Over Curio</span>
+				Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+			</p>
+
+			<div class="footer-icons">
+
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

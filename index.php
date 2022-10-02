@@ -196,128 +196,129 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="Carrousel" class="carousel"> <!-- Carrousel van het gebouw -->
-		<h1>Carrousel(diashow)</h1>
-		<ul class="slides">
-			<input type="radio" name="radio-buttons" id="img-1" checked />
-			<li class="slide-container">
-				<div class="slide-image">
-					<img src="img/building/building.jpg">
-				</div>
-				<div class="carousel-controls">
-					<!-- Dit is de controle dus -> image 1 vorige slide is de laatste slide en de volgende slide is 2 -->
-					<!-- Dus prev-slide is de image - 1 en next-slide is image + 1 en voor de eerste en de laatste geld dit niet -->
-					<label for="img-5" class="prev-slide">
-						<span>&lsaquo;</span>
-					</label>
-					<label for="img-2" class="next-slide">
-						<span>&rsaquo;</span>
-					</label>
-				</div>
-			</li>
-			<input type="radio" name="radio-buttons" id="img-2" />
-			<li class="slide-container">
-				<div class="slide-image">
-					<img src="img/building/building_1.jpg">
-				</div>
-				<div class="carousel-controls">
-					<label for="img-1" class="prev-slide">
-						<span>&lsaquo;</span>
-					</label>
-					<label for="img-3" class="next-slide">
-						<span>&rsaquo;</span>
-					</label>
-				</div>
-			</li>
-			<input type="radio" name="radio-buttons" id="img-3" />
-			<li class="slide-container">
-				<div class="slide-image">
-					<img src="img/building/building_2.jpg">
-				</div>
-				<div class="carousel-controls">
-					<label for="img-2" class="prev-slide">
-						<span>&lsaquo;</span>
-					</label>
-					<label for="img-4" class="next-slide">
-						<span>&rsaquo;</span>
-					</label>
-			</li>
-			<input type="radio" name="radio-buttons" id="img-4" />
-			<li class="slide-container">
-				<div class="slide-image">
-					<img src="img/building/building_3.jpg">
-				</div>
-				<div class="carousel-controls">
-					<label for="img-3" class="prev-slide">
-						<span>&lsaquo;</span>
-					</label>
-					<label for="img-5" class="next-slide">
-						<span>&rsaquo;</span>
-					</label>
-				</div>
-			</li>
-			<input type="radio" name="radio-buttons" id="img-5" />
-			<li class="slide-container">
-				<div class="slide-image">
-					<img src="img/building/building_4.jpg">
-				</div>
-				<div class="carousel-controls">
-					<label for="img-4" class="prev-slide">
-						<span>&lsaquo;</span>
-					</label>
-					<label for="img-1" class="next-slide">
-						<span>&rsaquo;</span>
-					</label>
-				</div>
-			</li>
-			<div class="carousel-dots">
-				<!-- Dit zijn de bolletjes je kan zien bij welke foto je bent -->
-				<label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-				<label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-				<label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-				<label for="img-4" class="carousel-dot" id="img-dot-4"></label>
-				<label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+		<div id="Carrousel" class="carousel"> <!-- Carrousel van het gebouw -->
+			<h1>Carrousel(diashow)</h1>
+			<ul class="slides">
+				<input type="radio" name="radio-buttons" id="img-1" checked />
+				<li class="slide-container">
+					<div class="slide-image">
+						<img src="img/building/building.jpg">
+					</div>
+					<div class="carousel-controls">
+						<!-- Dit is de controle dus -> image 1 vorige slide is de laatste slide en de volgende slide is 2 -->
+						<!-- Dus prev-slide is de image - 1 en next-slide is image + 1 en voor de eerste en de laatste geld dit niet -->
+						<label for="img-5" class="prev-slide">
+							<span>&lsaquo;</span>
+						</label>
+						<label for="img-2" class="next-slide">
+							<span>&rsaquo;</span>
+						</label>
+					</div>
+				</li>
+				<input type="radio" name="radio-buttons" id="img-2" />
+				<li class="slide-container">
+					<div class="slide-image">
+						<img src="img/building/building_1.jpg">
+					</div>
+					<div class="carousel-controls">
+						<label for="img-1" class="prev-slide">
+							<span>&lsaquo;</span>
+						</label>
+						<label for="img-3" class="next-slide">
+							<span>&rsaquo;</span>
+						</label>
+					</div>
+				</li>
+				<input type="radio" name="radio-buttons" id="img-3" />
+				<li class="slide-container">
+					<div class="slide-image">
+						<img src="img/building/building_2.jpg">
+					</div>
+					<div class="carousel-controls">
+						<label for="img-2" class="prev-slide">
+							<span>&lsaquo;</span>
+						</label>
+						<label for="img-4" class="next-slide">
+							<span>&rsaquo;</span>
+						</label>
+					</li>
+					<input type="radio" name="radio-buttons" id="img-4" />
+					<li class="slide-container">
+						<div class="slide-image">
+							<img src="img/building/building_3.jpg">
+						</div>
+						<div class="carousel-controls">
+							<label for="img-3" class="prev-slide">
+								<span>&lsaquo;</span>
+							</label>
+							<label for="img-5" class="next-slide">
+								<span>&rsaquo;</span>
+							</label>
+						</div>
+					</li>
+					<input type="radio" name="radio-buttons" id="img-5" />
+					<li class="slide-container">
+						<div class="slide-image">
+							<img src="img/building/building_4.jpg">
+						</div>
+						<div class="carousel-controls">
+							<label for="img-4" class="prev-slide">
+								<span>&lsaquo;</span>
+							</label>
+							<label for="img-1" class="next-slide">
+								<span>&rsaquo;</span>
+							</label>
+						</div>
+					</li>
+					<div class="carousel-dots">
+						<!-- Dit zijn de bolletjes je kan zien bij welke foto je bent -->
+						<label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+						<label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+						<label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+						<label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+						<label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+					</div>
+				</ul>
 			</div>
-		</ul>
-	</div>
-</div>
-</main>
+		</div>
+	</main>
 
-<footer>
+	<footer>
 
-</footer>
+	</footer>
+</body>
+</html>
 <script type="text/javascript">
 			// Variablen aanmaken van klassen
-			const menu = document.querySelector(".menus");
-			const menuItems = document.querySelectorAll(".menuItem");
-			const hamburger= document.querySelector(".hamburger");
-			const closeIcon= document.querySelector(".closeIcon");
-			const menuIcon = document.querySelector(".menuIcon");
-			//Nu begint eerst het hamburger menu in plaats het kruis
-			menuIcon.style.display = "block";
+	const menu = document.querySelector(".menus");
+	const menuItems = document.querySelectorAll(".menuItem");
+	const hamburger= document.querySelector(".hamburger");
+	const closeIcon= document.querySelector(".closeIcon");
+	const menuIcon = document.querySelector(".menuIcon");
+	//Nu begint eerst het hamburger menu in plaats het kruis
+	menuIcon.style.display = "block";
+	closeIcon.style.display = "none";
+	// functie bij het aanklikken wordt dit aangeroepen
+	function toggleMenu() {
+		if (menu.classList.contains("showMenu")) 
+		{
+			menu.classList.remove("showMenu");
 			closeIcon.style.display = "none";
-			// functie bij het aanklikken wordt dit aangeroepen
-			function toggleMenu() {
-				if (menu.classList.contains("showMenu")) {
-					menu.classList.remove("showMenu");
-					closeIcon.style.display = "none";
-					menuIcon.style.display = "block";
-					hamburger.style.background = "transparent";
-				} else {
-					menu.classList.add("showMenu");
-					hamburger.style.background = "white";
-					closeIcon.style.display = "block";
-					menuIcon.style.display = "none";
-				}
-			}
+			menuIcon.style.display = "block";
+			hamburger.style.background = "transparent";
+		} 
+		else 
+		{
+			menu.classList.add("showMenu");
+			hamburger.style.background = "white";
+			closeIcon.style.display = "block";
+			menuIcon.style.display = "none";
+		}
 			// event listener wordt dan toggleMenu geroepen om uit te voeren
-			hamburger.addEventListener("click", toggleMenu);
+	hamburger.addEventListener("click", toggleMenu);
 
-			menuItems.forEach( 
-				function(menuItem) { 
-					menuItem.addEventListener("click", toggleMenu);
-				})
-			</script>
-		</body>
-		</html>
+	menuItems.forEach( 
+		function(menuItem) { 
+			menuItem.addEventListener("click", toggleMenu);
+	    })
+</script>
